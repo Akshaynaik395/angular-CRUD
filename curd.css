@@ -1,0 +1,93 @@
+body{
+    background-image: url('cft3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#t1{
+    width:40%;
+    /* margin: 40px auto; */
+    margin-left: 50px;
+    background: rgb(124, 154, 167);
+}
+/* table.list{
+    text-align: center;
+    width:80%;
+} */
+td{
+    border: 1px solid rgb(207, 14, 14);
+    text-align: left;
+    padding: 8px 10px;
+    background-image: url('cft5.jpg');
+}
+tr:nth-child(even),table.list thread> tr{
+    background-color: rgb(204, 200, 200);
+}
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:7px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border:1px solid rgb(165, 161, 161);
+    border-radius: 4px;
+    color: black;
+}
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0;
+    display: inline-block;
+    border:none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor:pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0;
+    display: inline-block;
+    border:none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor:pointer;
+    outline: none;
+}
+button:hover{
+    background: #4b99d8;
+}
+#d1{
+    margin-left: 14%;
+    color:purple;
+    
+    
+    
+    /* width: 21%;
+    height:40%;
+    border:solid darkred;
+    background-color: aquamarine; */
+}
+#storeList{
+    
+    /* margin: 40px auto; */
+    margin-left: 660px;
+    margin-top: 0px;
+    background: rgb(142, 15, 107);
+    text-align: center;
+    width:50%;
+    font-size: 18px;
+    padding: 6px 12px;
+}
+#s1{
+    color: red;
+}
+#s2{
+    color: red;
+}

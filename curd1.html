@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html>
+<head>
+    <title>Crud Operation</title>
+    <link type="text/css" rel="stylesheet" href="curd.css">
+</head>
+
+<body>
+    <div>
+        <h2 id="d1" >Club Management System</h2>
+    </div>
+    
+    <table id="t1">
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="return onFormSubmit()" name="clubform">
+                    <div>
+                        <label for="pn">Player Name</label>
+                        <input type="text" name="productCode" id="pn" placeholder="Enter player name" onfocus="onFocusname()" onblur="onBlurname()">
+                        <span id="s1"></span>
+                        
+                    </div>
+                  
+                    
+                    <div>
+                        <label for="jr">Jersey number</label>
+                        <input type="number" name="product" id="jr" placeholder="Enter Jersey no" onfocus="onFocusjr()" onblur="onBlurjr()">
+                        <span id="s2"></span>
+                        
+                    </div>
+                    <div>
+                        <label for="qty">Goals scored</label>
+                        <input type="number" name="qty" id="qty" placeholder="Enter no of goals scored" onfocus="onFocusgs()" onblur="onBlurgs()">
+                        
+                    </div>
+                    <div>
+                        <label for="ap">Assist provided</label>
+                        <input type="number" name="assistp" id="ap" placeholder="Enter no of assist provided">
+                    </div>
+                    
+                    
+
+                    <div>
+                        <label for="dob">Date Of Birth</label>
+                        <input type="date" name="date" id="dob">
+                    </div>
+
+                    <div>
+                        <label for="p">Position</label>
+                        <select  name="position" id="p" >
+                            <option>select position</option>
+                            <option>Goalkeeper</option>
+                            <option>CenterBack</option>
+                            <option>RightBack</option>
+                            <option>LeftBack</option>
+                            <option>CAM</option>
+                            <option>CDM</option>
+                            <option>Forward</option>
+                            
+                        </select>
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">    
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+<!-- 
+                <td>
+                </td> -->
+            </td>
+        </tr>
+        <div id="club">
+        <table class="list" id="storeList">
+            <thead>
+                <tr>
+                    <th>Player name</th>
+                    <th>Jersey no</th>
+                    <th>Goals</th>
+                    <th>Assist</th>
+                    <th>DOB</th>
+                    <th>position</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        </div>
+    </table>
+                    
+
+    <script type="text/javascript" src="./curd1.js"></script>
+</body>
+</html>
